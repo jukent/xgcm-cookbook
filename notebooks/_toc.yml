@@ -3,5 +3,5 @@ root: landing-page
 parts:
   - caption: Example Workflows
     chapters:
-      - file: examples/mitgcm.ipynb
-      - file: examples/eccov4.ipynb
+      - file: examples/mitgcm
+      - file: examples/eccov4
