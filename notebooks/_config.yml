@@ -7,12 +7,9 @@ logo: images/logos/pythia_logo-white-rtext.svg
 email: projectpythia@ucar.edu
 copyright: '2022'
 
-# Execute the notebooks upon building the book?
-# See https://jupyterbook.org/en/stable/content/execute.html
+# Don't execute the notebooks upon building the book
 execute:
-  execute_notebooks: cache
-  timeout: 600
-  allow_errors: True
+  execute_notebooks: "off"
 
 # Add a few extensions to help with parsing content
 parse:
