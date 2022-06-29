@@ -1,6 +1,9 @@
-# (Replace_with_your_title) Cookbook
+<img src="images/thumbnail.png" alt="thumbnail" width="300"/>
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
+# Xgcm Cookbook
+
+This Project Pythia Cookbook covers examples and tutorials using XGCM with models and 
+observational datasets.
 
 ## Motivation
 
