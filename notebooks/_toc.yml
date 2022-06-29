@@ -3,4 +3,5 @@ root: landing-page
 parts:
   - caption: Example Workflows
     chapters:
+      - file: notebooks/examples/mitgcm
       - file: notebooks/examples/eccov4
