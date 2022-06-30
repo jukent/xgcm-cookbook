@@ -3,6 +3,6 @@ root: README
 parts:
   - caption: Example Workflows
     chapters:
-      - file: notebooks/examples/mitgcm
-      - file: notebooks/examples/eccov4
+      - file: notebooks/examples/mitgcm.ipynb
+      - file: notebooks/examples/eccov4.ipynb
 
