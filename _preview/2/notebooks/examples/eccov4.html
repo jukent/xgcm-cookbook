@@ -5,55 +5,56 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MITgcm ECCOv4 Example &#8212; Pythia Foundations</title>
+    <title>MITgcm ECCOv4 Example &#8212; XGCM Cookbook</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
     
       
 
     
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-pythia-theme.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-pythia-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/design-tabs.js"></script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="MITgcm Example" href="mitgcm.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -71,7 +72,7 @@ const thebe_selector_output = ".output, .cell_output"
     
 
 <a class="navbar-brand" href="https://projectpythia.org">
-  <img src="../_static/pythia_logo-white-rtext.svg" class="logo" alt="logo">
+  <img src="../../_static/pythia_logo-white-rtext.svg" class="logo" alt="logo">
 </a>
 
 
@@ -164,18 +165,36 @@ const thebe_selector_output = ".output, .cell_output"
         
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
-        <form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+        <form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../landing-page.html">
-   Xgcm Cookbook
+  <a class="reference internal" href="../../README.html">
+   XGCM Cookbook
   </a>
  </li>
 </ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Example Workflows
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mitgcm.html">
+   MITgcm Example
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   MITgcm ECCOv4 Example
+  </a>
+ </li>
+</ul>
+
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -212,7 +231,7 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/examples/eccov4.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/notebooks/examples/eccov4.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -232,10 +251,10 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/ProjectPythia/pythia-foundations/issues/new?title=Issue%20on%20page%20%2Fexamples/eccov4.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/ProjectPythia/pythia-foundations/issues/new?title=Issue%20on%20page%20%2Fnotebooks/examples/eccov4.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/ProjectPythia/pythia-foundations/edit/main/examples/eccov4.ipynb"><button
+        <a class="edit-button" href="https://github.com/ProjectPythia/pythia-foundations/edit/main/notebooks/examples/eccov4.ipynb"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -255,10 +274,10 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/examples/eccov4.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/ProjectPythia/pythia-foundations/main?urlpath=lab/tree/notebooks/examples/eccov4.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
-                    src="../_static/images/logo_binder.svg"
+                    src="../../_static/images/logo_binder.svg"
                     alt="Interact on binder">Binder</button></a>
         
         
@@ -381,7 +400,7 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
               
               <div>
                 
-  <a class="reference internal image-reference" href="examples/images/thumbnail.png"><img alt="thumbnail" src="examples/images/thumbnail.png" style="width: 300px;" /></a>
+  <a class="reference internal image-reference" href="notebooks/examples/images/thumbnail.png"><img alt="thumbnail" src="notebooks/examples/images/thumbnail.png" style="width: 300px;" /></a>
 <div class="tex2jax_ignore mathjax_ignore section" id="mitgcm-eccov4-example">
 <h1>MITgcm ECCOv4 Example<a class="headerlink" href="#mitgcm-eccov4-example" title="Permalink to this headline"><i class="fas fa-link"></i></a></h1>
 <hr class="docutils" />
@@ -480,25 +499,25 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">ds</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">ECCOv4r3</span><span class="o">.</span><span class="n">to_dask</span><span class="p">()</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">ds</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:69,</span> in <span class="ni">DataSourceMixin.to_dask</span><span class="nt">(self)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:69,</span> in <span class="ni">DataSourceMixin.to_dask</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">     </span><span class="mi">67</span> <span class="k">def</span> <span class="nf">to_dask</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="g g-Whitespace">     </span><span class="mi">68</span>     <span class="sd">&quot;&quot;&quot;Return xarray object where variables are dask arrays&quot;&quot;&quot;</span>
 <span class="ne">---&gt; </span><span class="mi">69</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">read_chunked</span><span class="p">()</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:44,</span> in <span class="ni">DataSourceMixin.read_chunked</span><span class="nt">(self)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:44,</span> in <span class="ni">DataSourceMixin.read_chunked</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">     </span><span class="mi">42</span> <span class="k">def</span> <span class="nf">read_chunked</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 <span class="g g-Whitespace">     </span><span class="mi">43</span>     <span class="sd">&quot;&quot;&quot;Return xarray object (which will have chunks)&quot;&quot;&quot;</span>
 <span class="ne">---&gt; </span><span class="mi">44</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_load_metadata</span><span class="p">()</span>
 <span class="g g-Whitespace">     </span><span class="mi">45</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ds</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/intake/source/base.py:236,</span> in <span class="ni">DataSourceBase._load_metadata</span><span class="nt">(self)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/intake/source/base.py:236,</span> in <span class="ni">DataSourceBase._load_metadata</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">    </span><span class="mi">234</span> <span class="sd">&quot;&quot;&quot;load metadata only if needed&quot;&quot;&quot;</span>
 <span class="g g-Whitespace">    </span><span class="mi">235</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_schema</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">236</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_schema</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_schema</span><span class="p">()</span>
 <span class="g g-Whitespace">    </span><span class="mi">237</span>     <span class="bp">self</span><span class="o">.</span><span class="n">dtype</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_schema</span><span class="o">.</span><span class="n">dtype</span>
 <span class="g g-Whitespace">    </span><span class="mi">238</span>     <span class="bp">self</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_schema</span><span class="o">.</span><span class="n">shape</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:18,</span> in <span class="ni">DataSourceMixin._get_schema</span><span class="nt">(self)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/intake_xarray/base.py:18,</span> in <span class="ni">DataSourceMixin._get_schema</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">     </span><span class="mi">15</span> <span class="bp">self</span><span class="o">.</span><span class="n">urlpath</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_cache</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">urlpath</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 <span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ds</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <span class="ne">---&gt; </span><span class="mi">18</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_open_dataset</span><span class="p">()</span>
@@ -510,12 +529,12 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">     </span><span class="mi">25</span>     <span class="p">}</span>
 <span class="g g-Whitespace">     </span><span class="mi">26</span>     <span class="k">if</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;on_server&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">):</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/intake_xarray/xzarr.py:46,</span> in <span class="ni">ZarrSource._open_dataset</span><span class="nt">(self)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/intake_xarray/xzarr.py:46,</span> in <span class="ni">ZarrSource._open_dataset</span><span class="nt">(self)</span>
 <span class="g g-Whitespace">     </span><span class="mi">44</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_ds</span> <span class="o">=</span> <span class="n">xr</span><span class="o">.</span><span class="n">open_mfdataset</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">urlpath</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">45</span> <span class="k">else</span><span class="p">:</span>
 <span class="ne">---&gt; </span><span class="mi">46</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_ds</span> <span class="o">=</span> <span class="n">xr</span><span class="o">.</span><span class="n">open_dataset</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">urlpath</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/xarray/backends/api.py:495,</span> in <span class="ni">open_dataset</span><span class="nt">(filename_or_obj, engine, chunks, cache, decode_cf, mask_and_scale, decode_times, decode_timedelta, use_cftime, concat_characters, decode_coords, drop_variables, backend_kwargs, *args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/xarray/backends/api.py:495,</span> in <span class="ni">open_dataset</span><span class="nt">(filename_or_obj, engine, chunks, cache, decode_cf, mask_and_scale, decode_times, decode_timedelta, use_cftime, concat_characters, decode_coords, drop_variables, backend_kwargs, *args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">483</span> <span class="n">decoders</span> <span class="o">=</span> <span class="n">_resolve_decoders_kwargs</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">484</span>     <span class="n">decode_cf</span><span class="p">,</span>
 <span class="g g-Whitespace">    </span><span class="mi">485</span>     <span class="n">open_backend_dataset_parameters</span><span class="o">=</span><span class="n">backend</span><span class="o">.</span><span class="n">open_dataset_parameters</span><span class="p">,</span>
@@ -537,7 +556,7 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">511</span> <span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">512</span> <span class="k">return</span> <span class="n">ds</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/xarray/backends/zarr.py:800,</span> in <span class="ni">ZarrBackendEntrypoint.open_dataset</span><span class="nt">(self, filename_or_obj, mask_and_scale, decode_times, concat_characters, decode_coords, drop_variables, use_cftime, decode_timedelta, group, mode, synchronizer, consolidated, chunk_store, storage_options, stacklevel)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/xarray/backends/zarr.py:800,</span> in <span class="ni">ZarrBackendEntrypoint.open_dataset</span><span class="nt">(self, filename_or_obj, mask_and_scale, decode_times, concat_characters, decode_coords, drop_variables, use_cftime, decode_timedelta, group, mode, synchronizer, consolidated, chunk_store, storage_options, stacklevel)</span>
 <span class="g g-Whitespace">    </span><span class="mi">780</span> <span class="k">def</span> <span class="nf">open_dataset</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">781</span>     <span class="bp">self</span><span class="p">,</span>
 <span class="g g-Whitespace">    </span><span class="mi">782</span>     <span class="n">filename_or_obj</span><span class="p">,</span>
@@ -559,7 +578,7 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">812</span>     <span class="n">store_entrypoint</span> <span class="o">=</span> <span class="n">StoreBackendEntrypoint</span><span class="p">()</span>
 <span class="g g-Whitespace">    </span><span class="mi">813</span>     <span class="k">with</span> <span class="n">close_on_error</span><span class="p">(</span><span class="n">store</span><span class="p">):</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/xarray/backends/zarr.py:368,</span> in <span class="ni">ZarrStore.open_group</span><span class="nt">(cls, store, mode, synchronizer, group, consolidated, consolidate_on_close, chunk_store, storage_options, append_dim, write_region, safe_chunks, stacklevel)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/xarray/backends/zarr.py:368,</span> in <span class="ni">ZarrStore.open_group</span><span class="nt">(cls, store, mode, synchronizer, group, consolidated, consolidate_on_close, chunk_store, storage_options, append_dim, write_region, safe_chunks, stacklevel)</span>
 <span class="g g-Whitespace">    </span><span class="mi">365</span>         <span class="n">zarr_group</span> <span class="o">=</span> <span class="n">zarr</span><span class="o">.</span><span class="n">open_group</span><span class="p">(</span><span class="n">store</span><span class="p">,</span> <span class="o">**</span><span class="n">open_kwargs</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">366</span> <span class="k">elif</span> <span class="n">consolidated</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">367</span>     <span class="c1"># TODO: an option to pass the metadata_key keyword</span>
@@ -567,7 +586,7 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">369</span> <span class="k">else</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">370</span>     <span class="n">zarr_group</span> <span class="o">=</span> <span class="n">zarr</span><span class="o">.</span><span class="n">open_group</span><span class="p">(</span><span class="n">store</span><span class="p">,</span> <span class="o">**</span><span class="n">open_kwargs</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/zarr/convenience.py:1304,</span> in <span class="ni">open_consolidated</span><span class="nt">(store, metadata_key, mode, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/zarr/convenience.py:1304,</span> in <span class="ni">open_consolidated</span><span class="nt">(store, metadata_key, mode, **kwargs)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1299</span>         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
 <span class="g g-Whitespace">   </span><span class="mi">1300</span>             <span class="s2">&quot;path must be provided to open a Zarr 3.x consolidated store&quot;</span>
 <span class="g g-Whitespace">   </span><span class="mi">1301</span>         <span class="p">)</span>
@@ -576,48 +595,48 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">   </span><span class="mi">1306</span> <span class="c1"># pass through</span>
 <span class="g g-Whitespace">   </span><span class="mi">1307</span> <span class="n">chunk_store</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;chunk_store&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="n">store</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/zarr/storage.py:2853,</span> in <span class="ni">ConsolidatedMetadataStore.__init__</span><span class="nt">(self, store, metadata_key)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/zarr/storage.py:2853,</span> in <span class="ni">ConsolidatedMetadataStore.__init__</span><span class="nt">(self, store, metadata_key)</span>
 <span class="g g-Whitespace">   </span><span class="mi">2850</span> <span class="bp">self</span><span class="o">.</span><span class="n">store</span> <span class="o">=</span> <span class="n">Store</span><span class="o">.</span><span class="n">_ensure_store</span><span class="p">(</span><span class="n">store</span><span class="p">)</span>
 <span class="g g-Whitespace">   </span><span class="mi">2852</span> <span class="c1"># retrieve consolidated metadata</span>
 <span class="ne">-&gt; </span><span class="mi">2853</span> <span class="n">meta</span> <span class="o">=</span> <span class="n">json_loads</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">store</span><span class="p">[</span><span class="n">metadata_key</span><span class="p">])</span>
 <span class="g g-Whitespace">   </span><span class="mi">2855</span> <span class="c1"># check format of consolidated metadata</span>
 <span class="g g-Whitespace">   </span><span class="mi">2856</span> <span class="n">consolidated_format</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;zarr_consolidated_format&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/zarr/storage.py:1369,</span> in <span class="ni">FSStore.__getitem__</span><span class="nt">(self, key)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/zarr/storage.py:1369,</span> in <span class="ni">FSStore.__getitem__</span><span class="nt">(self, key)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1367</span> <span class="n">key</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_normalize_key</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1368</span> <span class="k">try</span><span class="p">:</span>
 <span class="ne">-&gt; </span><span class="mi">1369</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">map</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
 <span class="g g-Whitespace">   </span><span class="mi">1370</span> <span class="k">except</span> <span class="bp">self</span><span class="o">.</span><span class="n">exceptions</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
 <span class="g g-Whitespace">   </span><span class="mi">1371</span>     <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">e</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/fsspec/mapping.py:137,</span> in <span class="ni">FSMap.__getitem__</span><span class="nt">(self, key, default)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/fsspec/mapping.py:137,</span> in <span class="ni">FSMap.__getitem__</span><span class="nt">(self, key, default)</span>
 <span class="g g-Whitespace">    </span><span class="mi">135</span> <span class="n">k</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_key_to_str</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">136</span> <span class="k">try</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">137</span>     <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fs</span><span class="o">.</span><span class="n">cat</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">138</span> <span class="k">except</span> <span class="bp">self</span><span class="o">.</span><span class="n">missing_exceptions</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">139</span>     <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:86,</span> in <span class="ni">sync_wrapper.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:86,</span> in <span class="ni">sync_wrapper.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
 <span class="g g-Whitespace">     </span><span class="mi">83</span> <span class="nd">@functools</span><span class="o">.</span><span class="n">wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">84</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
 <span class="g g-Whitespace">     </span><span class="mi">85</span>     <span class="bp">self</span> <span class="o">=</span> <span class="n">obj</span> <span class="ow">or</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="ne">---&gt; </span><span class="mi">86</span>     <span class="k">return</span> <span class="n">sync</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loop</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:66,</span> in <span class="ni">sync</span><span class="nt">(loop, func, timeout, *args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:66,</span> in <span class="ni">sync</span><span class="nt">(loop, func, timeout, *args, **kwargs)</span>
 <span class="g g-Whitespace">     </span><span class="mi">64</span>     <span class="k">raise</span> <span class="n">FSTimeoutError</span> <span class="kn">from</span> <span class="nn">return_result</span>
 <span class="g g-Whitespace">     </span><span class="mi">65</span> <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">return_result</span><span class="p">,</span> <span class="ne">BaseException</span><span class="p">):</span>
 <span class="ne">---&gt; </span><span class="mi">66</span>     <span class="k">raise</span> <span class="n">return_result</span>
 <span class="g g-Whitespace">     </span><span class="mi">67</span> <span class="k">else</span><span class="p">:</span>
 <span class="g g-Whitespace">     </span><span class="mi">68</span>     <span class="k">return</span> <span class="n">return_result</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:26,</span> in <span class="ni">_runner</span><span class="nt">(event, coro, result, timeout)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:26,</span> in <span class="ni">_runner</span><span class="nt">(event, coro, result, timeout)</span>
 <span class="g g-Whitespace">     </span><span class="mi">24</span>     <span class="n">coro</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">wait_for</span><span class="p">(</span><span class="n">coro</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="k">try</span><span class="p">:</span>
 <span class="ne">---&gt; </span><span class="mi">26</span>     <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="k">await</span> <span class="n">coro</span>
 <span class="g g-Whitespace">     </span><span class="mi">27</span> <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">ex</span><span class="p">:</span>
 <span class="g g-Whitespace">     </span><span class="mi">28</span>     <span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">ex</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:398,</span> in <span class="ni">AsyncFileSystem._cat</span><span class="nt">(self, path, recursive, on_error, batch_size, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/fsspec/asyn.py:398,</span> in <span class="ni">AsyncFileSystem._cat</span><span class="nt">(self, path, recursive, on_error, batch_size, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">396</span>     <span class="n">ex</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">is_exception</span><span class="p">,</span> <span class="n">out</span><span class="p">),</span> <span class="kc">False</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">397</span>     <span class="k">if</span> <span class="n">ex</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">398</span>         <span class="k">raise</span> <span class="n">ex</span>
@@ -632,20 +651,20 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">407</span>         <span class="k">if</span> <span class="n">on_error</span> <span class="o">!=</span> <span class="s2">&quot;omit&quot;</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">is_exception</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">408</span>     <span class="p">}</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/asyncio/tasks.py:408,</span> in <span class="ni">wait_for</span><span class="nt">(fut, timeout)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/asyncio/tasks.py:408,</span> in <span class="ni">wait_for</span><span class="nt">(fut, timeout)</span>
 <span class="g g-Whitespace">    </span><span class="mi">405</span> <span class="n">loop</span> <span class="o">=</span> <span class="n">events</span><span class="o">.</span><span class="n">get_running_loop</span><span class="p">()</span>
 <span class="g g-Whitespace">    </span><span class="mi">407</span> <span class="k">if</span> <span class="n">timeout</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">408</span>     <span class="k">return</span> <span class="k">await</span> <span class="n">fut</span>
 <span class="g g-Whitespace">    </span><span class="mi">410</span> <span class="k">if</span> <span class="n">timeout</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">411</span>     <span class="n">fut</span> <span class="o">=</span> <span class="n">ensure_future</span><span class="p">(</span><span class="n">fut</span><span class="p">,</span> <span class="n">loop</span><span class="o">=</span><span class="n">loop</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:781,</span> in <span class="ni">GCSFileSystem._cat_file</span><span class="nt">(self, path, start, end, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:781,</span> in <span class="ni">GCSFileSystem._cat_file</span><span class="nt">(self, path, start, end, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">779</span> <span class="k">else</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">780</span>     <span class="n">head</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="ne">--&gt; </span><span class="mi">781</span> <span class="n">headers</span><span class="p">,</span> <span class="n">out</span> <span class="o">=</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_call</span><span class="p">(</span><span class="s2">&quot;GET&quot;</span><span class="p">,</span> <span class="n">u2</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">head</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">782</span> <span class="k">return</span> <span class="n">out</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:392,</span> in <span class="ni">GCSFileSystem._call</span><span class="nt">(self, method, path, json_out, info_out, *args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:392,</span> in <span class="ni">GCSFileSystem._call</span><span class="nt">(self, method, path, json_out, info_out, *args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">387</span> <span class="k">async</span> <span class="k">def</span> <span class="nf">_call</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">388</span>     <span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">json_out</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">info_out</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span>
 <span class="g g-Whitespace">    </span><span class="mi">389</span> <span class="p">):</span>
@@ -656,12 +675,12 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">395</span>     <span class="k">if</span> <span class="n">json_out</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">396</span>         <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">contents</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/decorator.py:221,</span> in <span class="ni">decorate.&lt;locals&gt;.fun</span><span class="nt">(*args, **kw)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/decorator.py:221,</span> in <span class="ni">decorate.&lt;locals&gt;.fun</span><span class="nt">(*args, **kw)</span>
 <span class="g g-Whitespace">    </span><span class="mi">219</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">kwsyntax</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">220</span>     <span class="n">args</span><span class="p">,</span> <span class="n">kw</span> <span class="o">=</span> <span class="n">fix</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">kw</span><span class="p">,</span> <span class="n">sig</span><span class="p">)</span>
 <span class="ne">--&gt; </span><span class="mi">221</span> <span class="k">return</span> <span class="k">await</span> <span class="n">caller</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="p">(</span><span class="n">extras</span> <span class="o">+</span> <span class="n">args</span><span class="p">),</span> <span class="o">**</span><span class="n">kw</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/gcsfs/retry.py:115,</span> in <span class="ni">retry_request</span><span class="nt">(func, retries, *args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/gcsfs/retry.py:115,</span> in <span class="ni">retry_request</span><span class="nt">(func, retries, *args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">113</span>     <span class="k">if</span> <span class="n">retry</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">114</span>         <span class="k">await</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">**</span> <span class="p">(</span><span class="n">retry</span> <span class="o">-</span> <span class="mi">1</span><span class="p">),</span> <span class="mi">32</span><span class="p">))</span>
 <span class="ne">--&gt; </span><span class="mi">115</span>     <span class="k">return</span> <span class="k">await</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
@@ -677,13 +696,13 @@ an <a class="reference external" href="https://xarray.pydata.org/en/latest/user-
 <span class="g g-Whitespace">    </span><span class="mi">126</span>         <span class="ow">and</span> <span class="s2">&quot;requester pays&quot;</span> <span class="ow">in</span> <span class="n">e</span><span class="o">.</span><span class="n">message</span>
 <span class="g g-Whitespace">    </span><span class="mi">127</span>     <span class="p">):</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:384,</span> in <span class="ni">GCSFileSystem._request</span><span class="nt">(self, method, path, headers, json, data, *args, **kwargs)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/gcsfs/core.py:384,</span> in <span class="ni">GCSFileSystem._request</span><span class="nt">(self, method, path, headers, json, data, *args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">381</span> <span class="n">info</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">request_info</span>  <span class="c1"># for debug only</span>
 <span class="g g-Whitespace">    </span><span class="mi">382</span> <span class="n">contents</span> <span class="o">=</span> <span class="k">await</span> <span class="n">r</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 <span class="ne">--&gt; </span><span class="mi">384</span> <span class="n">validate_response</span><span class="p">(</span><span class="n">status</span><span class="p">,</span> <span class="n">contents</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">385</span> <span class="k">return</span> <span class="n">status</span><span class="p">,</span> <span class="n">headers</span><span class="p">,</span> <span class="n">info</span><span class="p">,</span> <span class="n">contents</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/gcsfs/retry.py:100,</span> in <span class="ni">validate_response</span><span class="nt">(status, content, path, args)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/gcsfs/retry.py:100,</span> in <span class="ni">validate_response</span><span class="nt">(status, content, path, args)</span>
 <span class="g g-Whitespace">     </span><span class="mi">98</span>     <span class="k">raise</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">ProxyError</span><span class="p">()</span>
 <span class="g g-Whitespace">     </span><span class="mi">99</span> <span class="k">elif</span> <span class="s2">&quot;invalid&quot;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
 <span class="ne">--&gt; </span><span class="mi">100</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Bad Request: </span><span class="si">%s</span><span class="se">\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">msg</span><span class="p">))</span>
@@ -990,7 +1009,7 @@ demand. It can take a few minutes to provision our nodes.</p>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">cluster</span> <span class="o">=</span> <span class="n">gateway</span><span class="o">.</span><span class="n">new_cluster</span><span class="p">()</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">cluster</span><span class="o">.</span><span class="n">adapt</span><span class="p">(</span><span class="n">minimum</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">maximum</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 
-<span class="nn">File /usr/share/miniconda3/envs/cookbook-dev/lib/python3.10/site-packages/dask_gateway/client.py:282,</span> in <span class="ni">Gateway.__init__</span><span class="nt">(self, address, proxy_address, public_address, auth, asynchronous, loop)</span>
+<span class="nn">File /usr/share/miniconda3/envs/xgcm-cookbook-dev/lib/python3.10/site-packages/dask_gateway/client.py:282,</span> in <span class="ni">Gateway.__init__</span><span class="nt">(self, address, proxy_address, public_address, auth, asynchronous, loop)</span>
 <span class="g g-Whitespace">    </span><span class="mi">280</span>     <span class="n">address</span> <span class="o">=</span> <span class="n">format_template</span><span class="p">(</span><span class="n">dask</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;gateway.address&quot;</span><span class="p">))</span>
 <span class="g g-Whitespace">    </span><span class="mi">281</span> <span class="k">if</span> <span class="n">address</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">282</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
@@ -1339,7 +1358,7 @@ Fortunately, xgcm also <a class="reference external" href="https://xgcm.readthed
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./examples"
+            path: "./notebooks/examples"
         },
         predefinedOutput: true
     }
@@ -1348,7 +1367,14 @@ Fortunately, xgcm also <a class="reference external" href="https://xgcm.readthed
 
               </div>
               <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="mitgcm.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">MITgcm Example</p>
+        </div>
+    </a>
 </div>
             </div>
           </div>
@@ -1357,7 +1383,7 @@ Fortunately, xgcm also <a class="reference external" href="https://xgcm.readthed
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
 <footer class="footer">
   <div class="container-fluid m-0 p-0">
@@ -1368,13 +1394,13 @@ Fortunately, xgcm also <a class="reference external" href="https://xgcm.readthed
     <div class="container-xl">
       <div class="row d-flex flex-wrap align-items-center">
         <div class="d-flex col-lg-3 col-md-4 col-sm-6 p-2 mx-auto">
-          <img alt="NCAR" src="../_images/NCAR-contemp-logo-blue.svg" style="width: 100%">
+          <img alt="NCAR" src="../../_images/NCAR-contemp-logo-blue.svg" style="width: 100%">
         </div>
         <div class="d-flex col-lg-3 col-md-4 col-sm-6 p-2 mx-auto">
-          <img alt="Unidata" src="../_images/Unidata_logo_horizontal_1200x300.svg" style="width: 100%">
+          <img alt="Unidata" src="../../_images/Unidata_logo_horizontal_1200x300.svg" style="width: 100%">
         </div>
         <div class="d-flex col-lg-3 col-md-4 col-sm-6 p-2 mx-auto">
-          <img alt="UAlbany" src="../_images/UAlbany-A2-logo-purple-gold.svg" style="width: 100%">
+          <img alt="UAlbany" src="../../_images/UAlbany-A2-logo-purple-gold.svg" style="width: 100%">
         </div>
       </div>
     </div>
@@ -1394,7 +1420,7 @@ Fortunately, xgcm also <a class="reference external" href="https://xgcm.readthed
         
           By the <a href="https://projectpythia.org/">Project Pythia</a> Community.
         
-          Last updated on 29 June 2022.
+          Last updated on 30 June 2022.
         </p>
       </div>
     </div>

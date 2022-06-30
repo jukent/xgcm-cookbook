@@ -1,13 +1,25 @@
-<img src="images/thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# Xgcm Cookbook
+# XGCM Cookbook
 
-This Project Pythia Cookbook covers examples and tutorials using XGCM with models and 
-observational datasets.
+[![nightly-build](https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder-staging.2i2c.cloud/badge_logo.svg)](https://binder-staging.2i2c.cloud/v2/gh/ProjectPythiaCookbooks/xgcm-cookbook/main?labpath=notebooks)
+
+This Project Pythia Cookbook covers examples and tutorials using XGCM with models and observational datasets.
 
 ## Motivation
 
 (Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+
+## Authors
+
+[First Author](@first-author), [Second Author](@second-author), etc. *Acknowledge primary content authors here*
+
+### Contributors
+
+<a href="https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythiaCookbooks/xgcm-cookbook" />
+</a>
 
 ## Structure
 (State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
@@ -43,10 +55,10 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)   
 
-1. Clone the `https://github.com/ProjectPythiaTutorials/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythiaCookbooks/cookbook-example` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythiaTutorials/cookbook-example.git
+    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
     ```  
 1. Move into the `cookbook-example` directory
     ```bash
@@ -62,5 +74,3 @@ If you are interested in running this material locally on your computer, you wil
     cd notebooks/
     jupyter lab
     ```
-
-At this point, you can interact with the notebooks! Make sure to check out the ["Getting Started with Jupyter"](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) content from the [Pythia Foundations](https://foundations.projectpythia.org/landing-page.html) material if you are new to Jupyter or need a refresher.
