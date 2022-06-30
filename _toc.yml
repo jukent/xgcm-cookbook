@@ -1,7 +1,8 @@
 format: jb-book
-root: landing-page
+root: README
 parts:
   - caption: Example Workflows
     chapters:
       - file: notebooks/examples/mitgcm
       - file: notebooks/examples/eccov4
+
