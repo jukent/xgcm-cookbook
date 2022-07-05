@@ -7,6 +7,7 @@ logo: notebooks/images/logos/pythia_logo-white-rtext.svg
 email: projectpythia@ucar.edu
 copyright: '2022'
 
+description: The cookbook for xgcm examples and use cases that were originally housed by Pangeo Gallery.
 thumbnail: thumbnail.png
 tags:
   domains:
