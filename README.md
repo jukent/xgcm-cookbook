@@ -2,8 +2,8 @@
 
 # XGCM Cookbook
 
-[![nightly-build](https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/actions/workflows/nightly-build.yaml)
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythiaCookbooks/xgcm-cookbook/main?labpath=notebooks)
+[![nightly-build](https://github.com/ProjectPythia/xgcm-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/xgcm-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/xgcm-cookbook/main?labpath=notebooks)
 
 This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
 
@@ -17,8 +17,8 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythiaCookbooks/xgcm-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythiaCookbooks/xgcm-cookbook" />
+<a href="https://github.com/ProjectPythia/xgcm-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/xgcm-cookbook" />
 </a>
 
 ## Structure
@@ -31,12 +31,12 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 (Add content for this section, e.g., "Example workflows include ... ")
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+You can either run the notebook using [Binder](http://binder.mypythia.org) or on your local machine.
 
 ### Running on Binder
 
 The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
+[Binder](http://binder.mypythia.org), which enables the execution of a
 [Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
 important for now. All you need to know is how to launch a Pythia
 Cookbooks chapter via Binder. Simply navigate your mouse to
@@ -53,21 +53,19 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 ### Running on Your Own Machine
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)   
-
-1. Clone the `https://github.com/ProjectPythiaCookbooks/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/xgcm-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
+    git clone https://github.com/ProjectPythia/xgcm-cookbook.git
     ```  
-1. Move into the `cookbook-example` directory
+1. Move into the `xgcm-cookbook` directory
     ```bash
-    cd cookbook-example
+    cd xgcm-cookbook
     ```  
 1. Create and activate your conda environment from the `environment.yml` file
     ```bash
     conda env create -f environment.yml
-    conda activate cookbook-example
+    conda activate cookbook-dev
     ```  
 1.  Move into the `notebooks` directory and start up Jupyterlab
     ```bash
