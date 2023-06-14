@@ -1,5 +1,7 @@
 name: template-sync
 
+permissions: write-all
+
 on:
   # manual trigger
   workflow_dispatch:
