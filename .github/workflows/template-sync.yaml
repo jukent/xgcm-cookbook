@@ -1,7 +1,5 @@
 name: template-sync
 
-permissions: write-all
-
 on:
   # manual trigger
   workflow_dispatch:
@@ -18,4 +16,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: ProjectPythia/cookbook-template
-          pr_labels: <sync>  # optional, no default
