@@ -4,6 +4,7 @@
 
 [![nightly-build](https://github.com/ProjectPythia/xgcm-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/xgcm-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/xgcm-cookbook/main?labpath=notebooks)
+[![DOI](https://zenodo.org/badge/508004390.svg)](https://zenodo.org/badge/latestdoi/508004390)
 
 This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
 

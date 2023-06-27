@@ -4,16 +4,7 @@
 title: XGCM Cookbook
 author: the <a href="https://projectpythia.org/">Project Pythia</a> Community
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
-email: projectpythia@ucar.edu
 copyright: '2022'
-
-description: The cookbook for xgcm examples and use cases that were originally housed by Pangeo Gallery.
-thumbnail: thumbnail.png
-tags:
-  domains:
-    - 
-  packages:
-    - xgcm
 
 # Don't execute the notebooks upon building the book
 execute:
