@@ -82,3 +82,4 @@ sphinx:
       footer_start:
         - footer-logos
         - footer-info
+        - footer-extra
