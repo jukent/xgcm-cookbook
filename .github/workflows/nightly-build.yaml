@@ -3,16 +3,17 @@ name: nightly-build
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Daily “At 00:00”
+    - cron: "0 0 * * *" # Daily “At 00:00”
 
 jobs:
   build:
     if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
-    with:
-      environment_name: cookbook-dev
+
+  deploy:
+    needs: build
+    uses: ProjectPythia/cookbook-actions/.github/workflows/deploy-book.yaml@main
 
   link-check:
     if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/link-checker.yaml@main
-    
